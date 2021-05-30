@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+img {
+    height: 300px;
+    
+}
+.vacations {
+   
+    flex-wrap: break;
+}
+img{
+    width:400px
+}
+.cards{
+width: 450px;
+height: 500px;
+margin: 16px;
+padding: 16px;
+padding-left: 60px;
+font-size: 12px;
+word-wrap: break-word;
+
+display: inline-block;
+
+}
+p{
+    height: 50px;
+    overflow: auto;
+    width:  407px;
+    font-size: 14px;
+}
+
+.card-title {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.price-card{
+    font-family: 'Pacifico', cursive;
+    color: rgb(3, 208, 255);
+    font-size: 24px;
+   
+}
+.date-card{
+    color: rgb(136, 135, 135);
+}
+.under-line{
+    width: 47px;
+    border-top:  5px solid gainsboro;
+
+
+}
+.editButton{
+    margin-right: 10%;
+}

@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.loginBox{
+border:solid black 1px;
+width:fit-content;
+display: inline-block;
+
+}
+/* .layout{ */
+    /* background:url("../../images/loginBackground.jpg") */
+/* } */
+.loginPath{
+    background-image: url("../../images/loginBackground.jpg");
+    background-size: cover;
+  height:754px;
+}
+
+form{
+    /* height: fit-content; */
+    height: 600px;
+    padding: 80px;
+    opacity: 0.96;
+    margin-left: 50% ;
+    width: fit-content;
+    background-color: lavender;
+}
+form:hover{
+    opacity: 1;
+}
+label{
+    margin-top: -3rem;
+}
+
+.registerLink{
+    color: #dc3545;
+}
+
+.formHeader{
+    line-break: loose;
+    font-size: 80px;
+    font-family: 'Pacifico', cursive;
+}
+.form-group {
+    margin-top: 10%;
+    margin-bottom: 1rem;
+}
